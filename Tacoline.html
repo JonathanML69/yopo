@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pedido</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pedidos">
+        <meta name="keywords" content="html.pedido">
+        <meta name="author" content="Denisse Cardona">
+    </head>
+    <body>
+        <h1>Bienvenido a Taconline</h1>
+        <div>
+            <h2>Realiza tu pedido</h2>
+            <form>
+                <label>Nombre:</label>
+                <input id="txtNombre" type="text"/>
+                <br><br>
+                <label>Tel&eacute;fono</label>
+                <input id="txtTelefono" type="text" placeholder="(###)-### ## ##"/>
+                <br><br>
+                <label>Email:</label>
+                <input id="txtEmail" type="email"/>
+                <br><br>
+                <label>Genero</label>
+                <select id="cmbGenero">
+                    <option value="H">Hombre</option>
+                    <option value="M">Mujer</option>
+                    <option value="O">Otro</option>
+                </select>
+                <br><br>
+                <label>Direcci&oacute;n:</label>
+                <textarea id="txtaDireccion"></textarea>
+                <br><br>
+                <label>M&eacute;todo de Pago</label>
+                <input id="rbtnEfectivo" name="rbtnMetodoPago" type="radio"/>Efectivo
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="rbtnTarjeta" name="rbtnMetodoPago" type="radio"/>Tarjeta
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="rbtnPaypal" name="rbtnMetodoPago" type="radio"/>Paypal
+                <br><br>
+                Ingredientes&nbsp;&nbsp;Cantidad
+                <br><br>
+                <input id="chbBistek" type="checkbox"/>Bistek
+                <input id="txtCantidadBistek" type="number"/>
+                <br><br>
+                <input id="chbSuadero" type="checkbox"/>Suadero
+                <input id="txtCantidadSuadero" type="number"/>
+                <br><br>
+                <input id="chbPastor" type="checkbox"/>Pastor
+                <input id="txtCantidadPastor" type="number"/>
+                <br><br>
+                <input id="chbTripa" type="checkbox"/>Tripa
+                <input id="txtCantidadTripa" type="number"/>
+                <br><br>
+                <input type="submit" value="Registrar Pedido"/>
+                &nbsp;&nbsp;
+                <input type="reset" value="Nuevo"/>
+                &nbsp;&nbsp;
+                <button>Cancelar</button>
+            </form>
+        </div>
+    </body>
+</html>
